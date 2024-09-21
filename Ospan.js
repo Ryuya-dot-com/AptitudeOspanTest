@@ -24,7 +24,7 @@ document.getElementById("participant-id-section").style.display = "block";
 // Functions
 
 function showInstructions() {
-    participantID = document.getElementById("participant-id").value.trim();
+    participantID = document.getElementById("participant-id").value.trim(); // 入力値の取得
     if (participantID === '') {
         alert('参加者IDを入力してください。');
         return;
