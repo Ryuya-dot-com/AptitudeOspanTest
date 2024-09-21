@@ -212,7 +212,7 @@ function proceed() {
 }
 
 function endTest() {
-    alert('テストが終了しました。お疲れ様でした！データを保存します。');
+    alert('テストが終了しました。お疲れ様でした！データを保存します。CSVファイルのダウンロードが完了したらタブを閉じてください。');
     exportData();
     // Optionally, redirect or reset the test
 }

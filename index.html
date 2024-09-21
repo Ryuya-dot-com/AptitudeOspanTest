@@ -39,17 +39,14 @@
         }
     </style>
 </head>
-    
 <body>
-
-    <script src="js/Ospan.js"></script>
-    
     <h1>オペレーションスパンテスト (Ospan Test)</h1>
 
     <!-- Instructions -->
     <div id="instructions" class="task">
-        <p>このテストでは、簡単な数学の問題を解き、その後に表示される英字を覚えていただきます。</p>
-        <p>最終的に、覚えた英字を順番通りにリコールしていただきます。</p>
+        <p>このテストでは、簡単な計算問題を解き、その後に表示されるアルファベット1文字を覚えていただきます。</p>
+        <p>最終的に、覚えた英字を順番通りに思い出してしていただきます。</p>
+        <p>誤ってしまった場合、修正することはできません。<p>
         <p>準備ができたら、テストを開始してください。</p>
         <button onclick="startPractice()">練習を開始</button>
     </div>
@@ -76,7 +73,7 @@
 
     <!-- Recall Phase -->
     <div id="recall-phase" class="task">
-        <p>覚えている英字を表示された順に選択してください:</p>
+        <p>覚えているアルファベットを表示された順に選択してください:</p>
         <div id="recall-options">
             <!-- Letter buttons will be generated dynamically -->
         </div>
@@ -89,6 +86,7 @@
         <p id="feedback-text"></p>
         <button onclick="proceed()">次へ</button>
     </div>
-    
+
+    <script src="Ospan.js"></script>
 </body>
 </html>
