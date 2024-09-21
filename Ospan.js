@@ -24,7 +24,7 @@ document.getElementById("participant-id-section").style.display = "block";
 // Functions
 
 function showInstructions() {
-    participantID = document.getElementById("participant-id").value.trim(); // 入力値の取得
+    participantID = document.getElementById("participant-id").value.trim();
     if (participantID === '') {
         alert('参加者IDを入力してください。');
         return;
@@ -212,7 +212,7 @@ function proceed() {
 }
 
 function endTest() {
-    alert('テストが終了しました。お疲れ様でした！データを保存します。CSVファイルのダウンロードが完了したらタブを閉じてください。');
+    alert('テストが終了しました。お疲れ様でした！データを保存します。');
     exportData();
     // Optionally, redirect or reset the test
 }
